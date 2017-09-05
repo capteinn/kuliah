@@ -1,6 +1,7 @@
 # kuliah
 Materi Kuliah
 
-perubahan di branch baru
-
-perubahan di branch baru lagi
+BI (Bisnis Intellegen)
+SIT (Sistem Informasi Terdistribusi)
+WEB2 (WEB Lanjut - php - framework)
+STKI (Sistem Temu Kembali Informasi)
