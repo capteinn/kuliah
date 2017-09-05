@@ -1,0 +1,9 @@
+https://help.pentaho.com/Documentation/5.2/0F0/0G0/020#da089c89-c26f-4443-8613-5ae9fd6e1360__set_environment_variables
+
+stop-pentaho.bat
+
+start-pentaho.bat
+
+C:biserver/biserver-ce\tomcat\conf\server.xml
+
+find 8000 change change to 8080

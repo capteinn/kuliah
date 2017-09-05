@@ -1,0 +1,267 @@
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\praktikan\Documents>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\praktikan\Documents>git config --global user.name "Abdurrahman"
+
+C:\Users\praktikan\Documents>git config --global user.email "capteinn@gmail.com"
+
+
+C:\Users\praktikan\Documents>git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+user.name=Abdurrahman
+user.email=capteinn@gmail.com
+
+C:\Users\praktikan\Documents>git clone https://github.com/capteinn/tugas02-topik
+-pa.git
+Cloning into 'tugas02-topik-pa'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+C:\Users\praktikan\Documents>cd
+C:\Users\praktikan\Documents
+
+C:\Users\praktikan\Documents>cd topik02-topik-pa
+The system cannot find the path specified.
+
+C:\Users\praktikan\Documents>cd tugas02-topik-pa
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git remote -v
+origin  https://github.com/capteinn/tugas02-topik-pa.git (fetch)
+origin  https://github.com/capteinn/tugas02-topik-pa.git (push)
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        02_C2_KAMI Kembali.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git add -i
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 1
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 4
+  1: 02_C2_KAMI Kembali.docx
+Add untracked>> 1
+* 1: 02_C2_KAMI Kembali.docx
+Add untracked>> 7
+* 1: 02_C2_KAMI Kembali.docx
+Add untracked>> 1
+* 1: 02_C2_KAMI Kembali.docx
+Add untracked>> 7
+* 1: 02_C2_KAMI Kembali.docx
+Add untracked>>
+added 1 path
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 7
+Bye.
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   02_C2_KAMI Kembali.docx
+
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git commit -m "Menambahkan file tu
+gas tim KAMI Kembali"
+[master 25bc32e] Menambahkan file tugas tim KAMI Kembali
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 02_C2_KAMI Kembali.docx
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git push -u origin master
+Username for 'https://github.com': capteinn
+Password for 'https://capteinn@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 9.76 KiB | 4.88 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/capteinn/tugas02-topik-pa.git
+   3817f10..25bc32e  master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   02_C2_KAMI Kembali.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git add -i
+           staged     unstaged path
+  1:    unchanged       binary 02_C2_KAMI Kembali.docx
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 2
+           staged     unstaged path
+  1:    unchanged       binary 02_C2_KAMI Kembali.docx
+Update>> 1
+           staged     unstaged path
+* 1:    unchanged       binary 02_C2_KAMI Kembali.docx
+Update>>
+updated 1 path
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 7
+Bye.
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   02_C2_KAMI Kembali.docx
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   02_C2_KAMI Kembali.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git add -i
+           staged     unstaged path
+  1:    unchanged       binary 02_C2_KAMI Kembali.docx
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 2
+           staged     unstaged path
+  1:    unchanged       binary 02_C2_KAMI Kembali.docx
+Update>> 1
+           staged     unstaged path
+* 1:    unchanged       binary 02_C2_KAMI Kembali.docx
+Update>>
+updated 1 path
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 7
+Bye.
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   02_C2_KAMI Kembali.docx
+
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git commit -m "mengupdate file tu
+as KAMI Kembali"
+[master 72487bb] mengupdate file tugas KAMI Kembali
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>git push origin master
+Username for 'https://github.com': capteinn
+Password for 'https://capteinn@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.70 KiB | 3.70 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/capteinn/tugas02-topik-pa.git
+   25bc32e..72487bb  master -> master
+
+C:\Users\praktikan\Documents\tugas02-topik-pa>
+

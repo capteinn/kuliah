@@ -1,0 +1,66 @@
+<Cuaca>
+	<Tanggal>31 October 2016</Tanggal>
+	<Isi>
+		<Row>
+			<Daerah>Kepulauan Seribu</Daerah>
+			<Pagi>Hujan Ringan</Pagi>
+			<Siang>Hujan Ringan</Siang>
+			<Malam>Hujan Ringan</Malam>
+		</Row>
+		<Row>
+			<Daerah>Jakarta Utara</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Ringan</Siang>
+			<Malam>Hujan Ringan</Malam>
+		</Row>
+		<Row>
+			<Daerah>Jakarta Pusat</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Ringan</Siang>
+			<Malam>Hujan Ringan</Malam>
+		</Row>
+		<Row>
+			<Daerah>Jakarta Selatan</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Ringan</Malam>
+		</Row>
+		<Row>
+			<Daerah>Jakarta Timur</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Ringan</Malam>
+		</Row>
+		<Row>
+			<Daerah>Jakarta Barat</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Sedang</Malam>
+		</Row>
+		<Row>
+			<Daerah>Depok</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Sedang</Malam>
+		</Row>
+		<Row>
+			<Daerah>Tangerang</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Sedang</Malam>
+		</Row>
+		<Row>
+			<Daerah>Bekasi</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Sedang</Malam>
+		</Row>
+		<Row>
+			<Daerah>Bogor</Daerah>
+			<Pagi>Berawan</Pagi>
+			<Siang>Hujan Sedang</Siang>
+			<Malam>Hujan Sedang</Malam>
+		</Row>
+		<Peringatan>-</Peringatan>
+	</Isi>
+</Cuaca>

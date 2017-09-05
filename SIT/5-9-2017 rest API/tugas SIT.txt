@@ -1,0 +1,4 @@
+tugas nya SIT
+operasikan sehingga ketika menambah datanya bisa masuk ke server
+REST server nya 
+https://komsi.id/api
