@@ -1,7 +1,8 @@
 <Cuaca>
 	<Tanggal>31 October 2016</Tanggal>
 	<Isi>
-		<Row>
+		<Test:condition code="mengenaskan" />
+		<Row date="12-5-2017">
 			<Daerah>Kepulauan Seribu</Daerah>
 			<Pagi>Hujan Ringan</Pagi>
 			<Siang>Hujan Ringan</Siang>
